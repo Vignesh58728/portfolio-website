@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face {
+  font-family: 'Brittany Signature';
+  src: url('./assets/fonts/BrittanySignature.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-satisfy {
+    font-family: 'Satisfy', cursive !important;
+  }
+  .font-brittany {
+    font-family: 'Brittany Signature', cursive !important;
+  }
+}
+
+
