@@ -4,13 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"node server/index.js\"",
-    "dev:frontend": "vite",
-    "dev:server": "node server/index.js",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "lint:dualite": "eslint --config eslint.dualite.config.js .",
-    "tsc:dualite": "yarn tsc -p tsconfig.dualite.json",
     "preview": "vite preview"
   },
   "dependencies": {
